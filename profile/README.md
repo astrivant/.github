@@ -1,3 +1,2 @@
-# .github
-
-Your next role should reflect more than the right keywords. It should connect what you have learned, what you can contribute today, and the people you could build something with tomorrow. Astrivant is building a telescope for that search: a way to bring scattered information about jobs, companies, and teams into focus around your experience. By giving recent work greater weight and making the evidence behind each match visible, we aim to help people spend less time sorting through listings and more time pursuing opportunities with purpose. Our ambition is to make career discovery more personal, more informed, and more human—so the next step feels less like searching in the dark and more like finding a direction.
+Astrivant is a job discovery and research platform that helps you decide where to
+focus your search.
