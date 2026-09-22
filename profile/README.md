@@ -1,2 +1,1 @@
-Astrivant is a job discovery and research platform that helps you decide where to
-focus your search.
+Astrivant is an LLC wrapping my personal projects for the time-being, to offset cloud costs.
