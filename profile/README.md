@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/astrivant/.github/main/profile/assets/astrivant-mascot.svg" alt="Astrivant mascot: a robot face with branching graph connections" width="320">
+</p>
+
 # Astrivant
 
 **Software that learns with you, under your control.**
