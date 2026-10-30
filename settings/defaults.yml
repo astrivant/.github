@@ -1,0 +1,86 @@
+# Shared repository policy. Project identities and exceptions belong in private configuration.
+repository:
+  visibility: private
+  default_branch: main
+  allow_auto_merge: true
+  allow_squash_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: false
+  delete_branch_on_merge: true
+  squash_merge_commit_title: PR_TITLE
+  squash_merge_commit_message: PR_BODY
+additive_plugins:
+- labels
+branches:
+- name: main
+  protection:
+    required_status_checks: null
+    enforce_admins: true
+    required_pull_request_reviews:
+      required_approving_review_count: 0
+      dismiss_stale_reviews: true
+      require_last_push_approval: false
+      require_code_owner_reviews: false
+    required_conversation_resolution: true
+    required_linear_history: true
+    allow_force_pushes: false
+    allow_deletions: false
+    restrictions: null
+labels:
+- name: bug
+  color: CC0000
+  description: Corrects behavior that does not meet the existing contract.
+- name: feature
+  color: '336699'
+  description: Adds a new user-facing or developer-facing capability.
+- name: enhancement
+  color: a2eeef
+  description: Improves an existing capability without introducing a separate feature.
+- name: refactor
+  color: 5319e7
+  description: Restructures implementation while preserving its intended behavior.
+- name: documentation
+  color: 0075ca
+  description: Changes guides, reference material, examples or contributor instructions.
+- name: tests
+  color: bfd4f2
+  description: Adds or improves automated verification and test infrastructure.
+- name: ci
+  color: 1d76db
+  description: Changes build, validation, release or repository automation.
+- name: dependencies
+  color: 0366d6
+  description: Updates dependencies, tool versions or dependency management.
+- name: maintenance
+  color: ededed
+  description: Performs routine repository upkeep outside the other change categories.
+- name: security
+  color: b60205
+  description: Addresses a demonstrated security issue or changes a security boundary.
+- name: breaking
+  color: d93f0b
+  description: Requires consumers to change an existing supported usage or contract.
+- name: performance
+  color: f9d0c4
+  description: Changes runtime, resource use or scalability with stated validation.
+- color: f143ab
+  description: Barrier affecting people with disabilities
+  name: accessibility
+- color: cfd3d7
+  description: This issue or pull request already exists
+  name: duplicate
+- color: 7057ff
+  description: Good for newcomers
+  name: good first issue
+- color: 008672
+  description: Extra attention is needed
+  name: help wanted
+- color: e4e669
+  description: This doesn't seem right
+  name: invalid
+- color: d876e3
+  description: Further information is requested
+  name: question
+- color: ffffff
+  description: This will not be worked on
+  name: wontfix

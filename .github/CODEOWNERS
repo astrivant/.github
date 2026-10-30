@@ -1,0 +1,4 @@
+# Shared policy review contact.
+/.github/CODEOWNERS @emmeowzing
+/.github/review-evidence/ @emmeowzing
+/settings/ @emmeowzing

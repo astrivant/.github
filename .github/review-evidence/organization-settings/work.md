@@ -1,0 +1,6 @@
+```mermaid
+flowchart LR
+  generic["Generic defaults"] --> hierarchy["Private hierarchy and project exceptions"]
+  hierarchy --> effective["Effective private/internal policy"]
+classDef default fill:#151920,stroke:#728cb0,color:#f1f4f7;
+```
