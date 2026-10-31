@@ -1,4 +1,4 @@
-# Shared repository policy. Project identities and exceptions belong in private configuration.
+# Shared repository policy. Project identities and exceptions belong in each downstream project's .github/settings.yml.
 repository:
   visibility: private
   default_branch: main
