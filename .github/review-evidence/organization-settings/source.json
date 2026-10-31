@@ -1,0 +1,44 @@
+{
+  "base": "0268abcfefd0eb8d1839474af3aa3525cec3a36c",
+  "excluded_paths": [
+    ".github/review-evidence/"
+  ],
+  "file_chart_excluded_filenames": [
+    "**/test_*"
+  ],
+  "files": [
+    {
+      "added": 86,
+      "deleted": 0,
+      "language": "YAML",
+      "path": "settings/defaults.yml",
+      "sha": "6f3d17388e9df9987aaff7926c08c40a915b6613"
+    },
+    {
+      "added": 33,
+      "deleted": 0,
+      "language": "Markdown",
+      "path": "settings/README.md",
+      "sha": "cb2029300522334415041083251132fa51fc2611"
+    },
+    {
+      "added": 4,
+      "deleted": 0,
+      "language": "Other",
+      "path": ".github/CODEOWNERS",
+      "sha": "1af0ecacab3f9339f78a20626545d434fc4e8230"
+    }
+  ],
+  "font_sha256": "d3e1471a4a0f836716bad35326d3c0ab5caddb74ae5c1917f99f8225abf43a7d",
+  "images": {
+    ".github/review-evidence/organization-settings/3454bf96da17b5e0/files-001.png": "2945e577b4ae5e4ff6d430603311584b54b5967a159a832d6c9a6a09e611ab74",
+    ".github/review-evidence/organization-settings/3454bf96da17b5e0/intent.png": "ebfa852a759580509a4dda2845ee764803ea06f04e1fd5cbc387f88c40eb998b",
+    ".github/review-evidence/organization-settings/3454bf96da17b5e0/languages.png": "c61989d380a5e404c9df8d3048cab6d576db49139945db77d9ab6b3384cab47c"
+  },
+  "input_digest": "3454bf96da17b5e0ccdf6cd8aec1a741af9a09be0aed40d915592fdbdd848a1c",
+  "matplotlib": "3.11.2",
+  "palette_sha256": "75bcd311c0e0a600bb71b88fb061f6f1c6032f5867b2c73c74430bea5c9d1e25",
+  "renderer_sha256": "623fb91e7a3c3bdefb428097e84e0baead2747219417febcb4c45eef13ed5de4",
+  "source_head": "e4550bdb6b79a6c57cbd57437b1c22ba3b812736",
+  "work_sha": "a0a2ae6adce939ad8791f2a34b790c3b9b3f1a1f"
+}
