@@ -1,6 +1,7 @@
 ```mermaid
 flowchart LR
-  generic["Generic defaults"] --> hierarchy["Private hierarchy and project exceptions"]
-  hierarchy --> effective["Effective private/internal policy"]
+  defaults["Shared settings/settings.yml"] --> merge["Validated temporary merge"]
+  project["Downstream .github/settings.yml"] --> merge
+  merge --> sync["Scoped repository synchronization"]
 classDef default fill:#151920,stroke:#728cb0,color:#f1f4f7;
 ```
